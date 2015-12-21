@@ -1,0 +1,60 @@
+
+div.colum_main > div.colum_main_top{
+ 
+  height: 45%;
+  width: 100%;
+  text-align: center;
+
+}
+div.colum_main > div.colum_main_top >div{
+     float: left;
+     width: 33.3%;
+     height:100%;
+     position: relative;
+}
+div.colum_main > div.colum_main_top > div > p{
+    position: relative;
+	padding: 10%;
+	margin: auto;
+	width: 30%;
+	height: 20%;
+	top: 28%;
+	border-style: inset;
+	line-height:4em;
+}
+div.colum_main > div.colum_main_top > div > p:hover{
+	cursor: pointer;
+	-webkit-box-shadow::0 1px 4px rgba(193, 192, 195, 1), 0 0 40px rgba(240, 240, 240, 1) inset;
+    -moz-box-shadow::0 1px 4px rgba(193, 192, 195, 1), 0 0 40px rgba(240, 240, 240, 1) inset;
+    box-shadow:0 1px 4px rgba(193, 192, 195, 1), 0 0 40px rgba(240, 240, 240, 1) inset;
+}
+
+div.colum_main > div.colum_main_bottom{
+	 height: 45%;
+	 width: 100%;
+     text-align: center;
+}
+div.colum_main > div.colum_main_bottom >div{
+ 	 float: left;
+	  height: 100%;
+	  width: 20%;
+ 	 position: relative;
+
+}
+div.colum_main > div.colum_main_bottom >div > p{
+  	position: relative;
+	padding: 10%;
+	margin: auto;
+	width: 50%;
+	height: 9%;
+	top: 30%;
+	border-style: inset;
+	text-align: center;
+	line-height: 2em;
+}
+div.colum_main > div.colum_main_bottom >div > p:hover{
+	cursor: pointer;
+	-webkit-box-shadow::0 1px 4px rgba(193, 192, 195, 1), 0 0 40px rgba(240, 240, 240, 1) inset;
+    -moz-box-shadow::0 1px 4px rgba(193, 192, 195, 1), 0 0 40px rgba(240, 240, 240, 1) inset;
+    box-shadow:0 1px 4px rgba(193, 192, 195, 1), 0 0 40px rgba(240, 240, 240, 1) inset;
+}

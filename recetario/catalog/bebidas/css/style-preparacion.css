@@ -1,0 +1,62 @@
+div.contenedor > p {
+	 margin-bottom: 0px !important;
+	 height: 10%;
+	 width: 100%; 
+	 font-size: 160%;  
+}
+div.contenedor > div{
+     float: left;
+     margin-top: 2%;
+}
+div.contenedor > div >h2{
+     text-align: center;
+     font-size: 200%;
+}
+div.contenedor > div > ul{
+     padding: 10% 10%
+}
+div.contenedor > div > ul > li{
+     padding-bottom: 5%;
+}
+div.contenedor > div#img{
+     width: 100%;
+     height:40%;
+}
+div.contenedor > div#img > img{
+     -webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+div.contenedor > div > img{
+     border-left: 0 auto;
+     border-right: 0 auto;
+     height:100%;
+}
+div.contenedor > div#recipe-ingredients{
+     width: 50%;
+     height:50%;
+     background-image: url("../images/fondo.gif");
+     background-size: 100% 100%;
+     font-size: 0.9em;
+     text-align:justify;
+     overflow:hidden;  
+}
+div.contenedor > div#recipe-directions{
+     width: 50%;
+     height:50%;
+     background-image: url("../images/fondo.gif");
+     background-size: 100% 100%;
+     font-size: .8em;
+     text-align: justify;
+     overflow:hidden;
+}
+div.contenedor > div#recipe-ingredients:hover,
+div.contenedor > div#recipe-directions:hover{
+   color: red;
+   overflow-y:scroll; 
+}
+div.contenedor > div#recipe-ingredients > ul > li >span:hover,
+div.contenedor > div#recipe-directions > ul > li >span:hover{
+   color: black;
+   cursor: pointer;
+}

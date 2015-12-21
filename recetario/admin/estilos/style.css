@@ -1,0 +1,71 @@
+html{
+	height: 100%;
+}
+.content{
+	width: 43%;
+    margin: 0 auto;
+	font-family:sans-serif;
+}
+form{
+	width:50%;
+}
+form label{
+	display:block;
+}
+form input{
+	width:400px;
+	height:25px;
+	margin:5px 0px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+form button{
+	padding:5px 15px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	border-color: black;
+	background-color: #E2EEF0;
+}
+form button a{
+	text-decoration: none;
+	color: black;
+}
+form div.campo{
+	position:relative;
+}
+form div.campo div.errorsote{
+	position:absolute;
+	top:15px;
+	left:5px;
+}
+form div.errorsote{
+	font-size:.75em;
+	color:red;
+}
+
+body{
+	font-family: sans-serif;
+	background-image: url("../img/degradado.jpg");
+	background-size: 100% 216%;
+}
+
+body table tr td{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+body table{
+	border-color: blue;
+	background-color: grey;
+	color: black;
+}
+
+body a button{
+	padding:5px 15px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	border-color: black;
+	background-color: #E2EEF0;
+}

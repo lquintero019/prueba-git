@@ -1,0 +1,203 @@
+div#modal_img{
+ display: none;
+ position: fixed;
+ width: 100% ;
+ height: 100%;
+ background-image: url("../img/modal_back.jpg");
+ background-size: 100% 100%;
+ z-index: 1;
+}
+div#modal_img > form{
+	position: relative;
+	top: 25%;
+	margin: 0 auto;
+    width: 50%;
+	height: 50%;
+	background-color: #FCFCFC;
+	border: solid 5px rgba(152, 223, 212, 0.87);
+	border-radius: 1em;
+}
+div#modal_img > form > div#modal_img_container{
+  width: 100%;
+  height:65%;
+  overflow: auto;
+}
+div#modal_img > form > div#modal_img_container > div#children_modal_img{
+  display: none;
+  width: 100%;
+  height:100%;
+  text-align: center;
+  overflow: auto;
+}
+div#modal_img > form > div#modal_img_container > div#children_modal_img > h1{
+  width: 99%;
+  height: 23%;
+  display: block;
+  font-size: 2em;
+  -webkit-margin-before: 0px;
+  -webkit-margin-after: 0px;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  font-weight: bold;
+  border-style: ridge;
+}
+div#modal_img > form > div#modal_img_container > div#children_modal_img > div{
+  width: 100%;
+  height: 77%;
+}
+div#modal_img > form > div#modal_img_container > div#children_modal_img > div > div{
+  width: 25%;
+  height:90%;
+  padding-top: 1%;
+  float: left;
+}
+div#modal_img > form > div#modal_img_container > div#children_modal_img > div > div.div_img:hover{
+	opacity: 0.7;
+	cursor: pointer;
+}
+div#modal_img > form > div#modal_img_container > div#children_modal_img > div > div > input{
+  width: 20%;
+  height:100%;
+  margin: 0px;
+}
+div#modal_img > form > div#modal_img_container > div#children_modal_img > div > div> img{
+  width: 80%;
+  height:100%;
+}
+div#modal_img > form > p{
+  height: 5%;
+	position: relative;
+	float: right;
+	right: 2%;
+	color: red;
+	margin: 0px;
+	cursor: pointer; 
+}
+div#modal_img > form > div{
+  width: 100%;
+  height:75%;
+}
+div#modal_img > form > input#select_file,label{
+  width:100%;
+  height:10%;                        
+}
+div#modal_img > form > input#chose_option1,div#modal_img > form > input#chose_option2,div#modal_img > form > input#chose_option3{          
+  float: left;
+  width: 33.3%;
+  height:10%;
+  border-radius: 1em;             
+}
+div#modal_img > form > input#chose_option3{
+  display: none;
+}  
+div#modal_contain{
+ display: none;
+ position: fixed;
+ width: 100% ;
+ height: 100%;
+ background-image: url("../img/modal_back.jpg");
+ background-size: 100% 100%;
+ z-index: 2;
+}
+div#modal_contain > form{
+	position: relative;
+	top: 25%;
+	margin: 0 auto;
+    width: 50%;
+	height: 50%;
+	background-color: #FCFCFC;
+	border: solid 5px rgba(152, 223, 212, 0.87);
+	border-radius: 1em;
+}
+div#modal_contain > form div:nth-child(1){
+	width: 100%;
+	height:5%;
+}
+div#modal_contain > form div:nth-child(2){
+    width: 100%;
+	height:85%;	
+	overflow: auto;
+}
+div#modal_contain > form div:nth-child(3){
+	width: 100%;
+	height:10%;
+}
+
+div#modal_contain > form > div:nth-child(2) > textarea{
+  width: 100%;
+  height: 99%;
+  padding: 0px;
+  border: 0px;
+}
+div#modal_contain > form > div:nth-child(1) > p{
+    height: 100%;
+	position: relative;
+	float: right;
+	right: 2%;
+	color: red;
+	margin: 0px;
+	cursor: pointer; 
+}
+div#modal_contain > form > div:nth-child(3) > button#chose_option1,div#modal_contain > form > div:nth-child(3) > button#chose_option2{          
+  float: left;
+	width: 50%;
+	height: 100%;
+	border-radius: 1em;           
+}  
+div#modal_contain > div.mmessage_error{
+	background-color: rgb(250, 250, 250);
+	color: black;
+	position: relative;
+	top: 23%;
+	width: 38%;
+	height: 10%;
+	/* right: -34%; */
+	line-height: -6px;
+	line-height: 370%;
+	font-family: monospace;
+	margin: auto;
+	border-radius: 17px;          	
+}        
+div#modal_contain > div.message_success{
+	background-color: rgb(250, 250, 250);
+	color: black;
+	position: relative;
+	top: 23%;
+	width: 32%;
+	height: 10%;
+	/* right: -34%; */
+	line-height: -6px;
+	line-height: 370%;
+	font-family: monospace;
+	margin: auto;
+	border-radius: 17px;       
+}
+div#modal_img > div.mmessage_error{          
+	background-color: rgb(250, 250, 250);
+	color: black;
+	position: relative;
+	top: 23%;
+	width: 45%;
+	height: auto;
+	/* right: -34%; */
+	line-height: -6px;
+	line-height: 182%;
+	font-family: monospace;
+	margin: auto;
+	border-radius: 17px;   
+	text-align: center;   
+}                    
+div#modal_img > div.message_success{          
+	background-color: rgb(250, 250, 250);
+	color: black;
+	position: relative;
+	top: 23%;
+	width: 32%;
+	height: 10%;
+	/* right: -34%; */
+	line-height: -6px;
+	line-height: 370%;
+	font-family: monospace;
+	margin: auto;
+	border-radius: 17px;     
+}                                       

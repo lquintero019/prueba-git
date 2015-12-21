@@ -1,0 +1,22 @@
+gurmet1.jpg
+
+gurmet2.jpg
+
+gurmet3.jpg
+
+Hola amigos amantes de la cocina. la sabia selección de los alimentos, que estén en su punto de madurez, higiene en el proceso, corte adecuado y cocción, conocimiento sobre el buen uso de los condimentos, uso del equipo adecuado, elaboración de recetas estandarizadas y la practica de la imaginación, sin olvidar servirlos atractivamente decorados y a la temperatura correcta.
+
+Este block contiene informacion referente a el arte culinario el cual dara a conoser el proceso con el que se elavora los diversos platillos por grupos de comida estos varian desde vegetarianos asta grupos de postres, platillos fuertes y otros entremeses.
+
+Recetario Maestro es un grupo de personas dedicadas a dar a conoser los platillos que se pueden consumir asi como su previa preparacion.
+
+ungusto.jpg
+
+restaurant.jpeg
+
+
+Truco: Usados ambos métodos conjuntamente podremos crear una función para sustituir un texto por otro en una cadena dada:
+
+function str_replace(cadena, cambia_esto, por_esto) {
+      return cadena.split(cambia_esto).join(por_esto);
+}

@@ -1,0 +1,33 @@
+table{
+	border-left: 1px solid #000000; 
+	border-bottom: 1px solid #000000; 
+	margin-left:auto;
+	margin-right:auto;
+	width:600px;
+	background-color:#FFFFCC;
+	font-family:calibri;
+	font-size:17px;
+	color:#000066;
+}
+table a{
+	text-decoration:none;
+	cursor:pointer;
+}
+td { 
+	padding-top:2px; 
+	padding-bottom:2px;
+	border-top: 1px solid #000000; 
+	border-right: 1px solid #000000;
+	padding-left:10px;
+	padding-right:10px;
+	color:#666666;
+}
+.encabezado{
+	background-color:#ffffff;
+}
+.encabezado_selec{
+	background-color:#ffffff;
+}
+.filas_selec{
+	background-color:#ffffff;
+}
